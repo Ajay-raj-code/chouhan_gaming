@@ -488,10 +488,11 @@
         <a href="#events" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Events</a>
         <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
         {% if auth %}
-          <a href="registration/" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Registration</a>
-          <a href="login/" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Login</a>
-        {% else %}
         <a href="logout/" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()" id="logout">logout</a>
+        {% else %}
+        <a href="registration/" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Registration</a>
+          <a href="login/" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Login</a>
+        
         {% endif %}
         
         
