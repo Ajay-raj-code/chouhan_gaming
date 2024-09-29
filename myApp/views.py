@@ -162,7 +162,7 @@ def fun(u):
 
     mail.starttls()
 
-    mail.login('ajay.raj.635p@gmail.com', 'ndjo erlt irmy mvqf')
+    mail.login('ajay.raj.635p@gmail.com', 'itix povw zuts jtyy')
     mail.sendmail(me, you, msg.as_string())
     mail.quit()
     
