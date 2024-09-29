@@ -75,17 +75,17 @@ WSGI_APPLICATION = 'myProject.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-'''DATABASES = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
-}'''
+}
 
-import dj_database_url
+'''import dj_database_url
 DATABASES = {
     'default': dj_database_url.parse('postgres://maydb_user:kJXvOw1C5FBkcaFxv6DhstI5fpVAO7N2@dpg-cosv1l6d3nmc73doajbg-a.singapore-postgres.render.com/maydb')
-}
+}'''
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
